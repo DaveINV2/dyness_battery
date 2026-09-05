@@ -22,7 +22,7 @@ _LOGGER = logging.getLogger(__name__)
 DOMAIN = "dyness_battery"
 PLATFORMS = [Platform.SENSOR]
 
-_MIN_CALL_INTERVAL = 1.5
+_MIN_CALL_INTERVAL = 1.0
 _RATE_LIMIT_BACKOFF = 10
 _MAX_RETRIES = 3
 _BMS_SUFFIXES = ("-BMS", "-BDU")
